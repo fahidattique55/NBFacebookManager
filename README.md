@@ -15,9 +15,7 @@
 
 ## License
 
-NBUtility is available under the MIT license. See the LICENSE file for more info.
-
-
+NBFacebookManager is available under the MIT license. See the LICENSE file for more info.
 
 
 ## Author

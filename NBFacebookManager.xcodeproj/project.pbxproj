@@ -17,6 +17,7 @@
 		2945D4831EF0FCC900216208 /* NBFacebookManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945D4821EF0FCC900216208 /* NBFacebookManagerUITests.swift */; };
 		2945D4971EF1011800216208 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945D4961EF1011800216208 /* FacebookManager.swift */; };
 		2945D4991EF120F800216208 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2945D4981EF120F800216208 /* README.md */; };
+		2945D49B1EF1228400216208 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2945D49A1EF1228400216208 /* LICENSE */; };
 		E458B31A0964C88110245B29 /* Pods_NBFacebookManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828C0BEA6B0CE6962A2FF6CB /* Pods_NBFacebookManager.framework */; };
 		F7FE57746D7229EBFF7724A6 /* Pods_NBFacebookManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B548788CCC32958BFCB35B0 /* Pods_NBFacebookManagerUITests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		2945D4841EF0FCC900216208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2945D4961EF1011800216208 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		2945D4981EF120F800216208 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2945D49A1EF1228400216208 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3B548788CCC32958BFCB35B0 /* Pods_NBFacebookManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBFacebookManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4871E8CB3725F52DFDDA0B5C /* Pods-NBFacebookManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBFacebookManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBFacebookManagerTests/Pods-NBFacebookManagerTests.release.xcconfig"; sourceTree = "<group>"; };
 		828C0BEA6B0CE6962A2FF6CB /* Pods_NBFacebookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBFacebookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				2945D4981EF120F800216208 /* README.md */,
+				2945D49A1EF1228400216208 /* LICENSE */,
 				2945D4611EF0FCC900216208 /* NBFacebookManager */,
 				2945D4761EF0FCC900216208 /* NBFacebookManagerTests */,
 				2945D4811EF0FCC900216208 /* NBFacebookManagerUITests */,
@@ -308,6 +311,7 @@
 			files = (
 				2945D46D1EF0FCC900216208 /* LaunchScreen.storyboard in Resources */,
 				2945D46A1EF0FCC900216208 /* Assets.xcassets in Resources */,
+				2945D49B1EF1228400216208 /* LICENSE in Resources */,
 				2945D4681EF0FCC900216208 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
