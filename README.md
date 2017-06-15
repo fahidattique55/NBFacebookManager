@@ -47,7 +47,7 @@
  
 ## Pre-Requisite
 
-* Create a new facebook application with your facebook developer account. Please visit [documentation](https://developers.facebook.com) to create a new application and follow the instructions to get App-ID setup in your Xcode project's .plist file.
+* Create a new facebook application with your facebook developer account. Please visit [Facebook Developer Site](https://developers.facebook.com) to create a new application and follow the instructions to get App-ID setup in your Xcode project's .plist file.
 
  
  
