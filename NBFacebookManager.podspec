@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NBFacebookManager'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Facebook manager for social media login integration'
 
   s.description      = <<-DESC

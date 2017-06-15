@@ -12,9 +12,13 @@ import FBSDKCoreKit
 
 public class FacebookManager {
     
+    public init() {
+        
+    }
+    
     fileprivate let cancelError = "You have cancelled Login."
     
-    func tryAuthenticate(fromViewController viewController:UIViewController, success: @escaping ((_ facebookToken:String) -> Void),
+    public func tryAuthenticate(fromViewController viewController:UIViewController, success: @escaping ((_ facebookToken:String) -> Void),
                                                   failureBlock failure: @escaping ((_ error: NSError?) -> Void)) {
         
         if let currentAccessToken = FBSDKAccessToken.current() {
@@ -43,7 +47,7 @@ public class FacebookManager {
         }
     }
     
-    func fetchLoggedUserInfo(successBlock success: @escaping ((_ facebookUserInfo:[String : AnyObject]) -> Void),
+    public func fetchLoggedUserInfo(successBlock success: @escaping ((_ facebookUserInfo:[String : AnyObject]) -> Void),
                                           failureBlock failure: @escaping ((_ error: NSError?) -> Void)) {
         
         let meRequest = FBSDKGraphRequest(graphPath: "me", parameters: nil)

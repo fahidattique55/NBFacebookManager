@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1079BE3A13E2D046472F3A2C /* Pods_NBFacebookManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CE9ED4B086EFB2C2A508D3 /* Pods_NBFacebookManagerTests.framework */; };
-		2945D4631EF0FCC900216208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945D4621EF0FCC900216208 /* AppDelegate.swift */; };
-		2945D4651EF0FCC900216208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945D4641EF0FCC900216208 /* ViewController.swift */; };
 		2945D4681EF0FCC900216208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2945D4661EF0FCC900216208 /* Main.storyboard */; };
 		2945D46A1EF0FCC900216208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2945D4691EF0FCC900216208 /* Assets.xcassets */; };
 		2945D46D1EF0FCC900216208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2945D46B1EF0FCC900216208 /* LaunchScreen.storyboard */; };
@@ -18,6 +16,10 @@
 		2945D4971EF1011800216208 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945D4961EF1011800216208 /* FacebookManager.swift */; };
 		2945D4991EF120F800216208 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2945D4981EF120F800216208 /* README.md */; };
 		2945D49B1EF1228400216208 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2945D49A1EF1228400216208 /* LICENSE */; };
+		2949E7981EF299170066715B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949E7951EF299170066715B /* AppDelegate.swift */; };
+		2949E7991EF299170066715B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2949E7961EF299170066715B /* Info.plist */; };
+		2949E79A1EF299170066715B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2949E7971EF299170066715B /* ViewController.swift */; };
+		2949E79C1EF299750066715B /* NBFacebookManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2949E79B1EF299740066715B /* NBFacebookManager.podspec */; };
 		E458B31A0964C88110245B29 /* Pods_NBFacebookManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828C0BEA6B0CE6962A2FF6CB /* Pods_NBFacebookManager.framework */; };
 		F7FE57746D7229EBFF7724A6 /* Pods_NBFacebookManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B548788CCC32958BFCB35B0 /* Pods_NBFacebookManagerUITests.framework */; };
 /* End PBXBuildFile section */
@@ -42,12 +44,9 @@
 /* Begin PBXFileReference section */
 		2571A4DF7C45A244ECE485F5 /* Pods-NBFacebookManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBFacebookManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBFacebookManagerUITests/Pods-NBFacebookManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2945D45F1EF0FCC900216208 /* NBFacebookManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBFacebookManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2945D4621EF0FCC900216208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2945D4641EF0FCC900216208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2945D4671EF0FCC900216208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2945D4691EF0FCC900216208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2945D46C1EF0FCC900216208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2945D46E1EF0FCC900216208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2945D4731EF0FCC900216208 /* NBFacebookManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBFacebookManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2945D4771EF0FCC900216208 /* NBFacebookManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBFacebookManagerTests.swift; sourceTree = "<group>"; };
 		2945D4791EF0FCC900216208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +56,10 @@
 		2945D4961EF1011800216208 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		2945D4981EF120F800216208 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2945D49A1EF1228400216208 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2949E7951EF299170066715B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2949E7961EF299170066715B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2949E7971EF299170066715B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2949E79B1EF299740066715B /* NBFacebookManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NBFacebookManager.podspec; sourceTree = "<group>"; };
 		3B548788CCC32958BFCB35B0 /* Pods_NBFacebookManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBFacebookManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4871E8CB3725F52DFDDA0B5C /* Pods-NBFacebookManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBFacebookManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBFacebookManagerTests/Pods-NBFacebookManagerTests.release.xcconfig"; sourceTree = "<group>"; };
 		828C0BEA6B0CE6962A2FF6CB /* Pods_NBFacebookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBFacebookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +101,7 @@
 		2945D4561EF0FCC900216208 = {
 			isa = PBXGroup;
 			children = (
+				2949E79B1EF299740066715B /* NBFacebookManager.podspec */,
 				2945D4981EF120F800216208 /* README.md */,
 				2945D49A1EF1228400216208 /* LICENSE */,
 				2945D4611EF0FCC900216208 /* NBFacebookManager */,
@@ -157,12 +161,12 @@
 		2945D4951EF1006300216208 /* Example-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				2945D4621EF0FCC900216208 /* AppDelegate.swift */,
-				2945D4641EF0FCC900216208 /* ViewController.swift */,
+				2949E7951EF299170066715B /* AppDelegate.swift */,
+				2949E7961EF299170066715B /* Info.plist */,
+				2949E7971EF299170066715B /* ViewController.swift */,
 				2945D4661EF0FCC900216208 /* Main.storyboard */,
 				2945D4691EF0FCC900216208 /* Assets.xcassets */,
 				2945D46B1EF0FCC900216208 /* LaunchScreen.storyboard */,
-				2945D46E1EF0FCC900216208 /* Info.plist */,
 			);
 			name = "Example-Demo";
 			sourceTree = "<group>";
@@ -311,7 +315,9 @@
 			files = (
 				2945D46D1EF0FCC900216208 /* LaunchScreen.storyboard in Resources */,
 				2945D46A1EF0FCC900216208 /* Assets.xcassets in Resources */,
+				2949E79C1EF299750066715B /* NBFacebookManager.podspec in Resources */,
 				2945D49B1EF1228400216208 /* LICENSE in Resources */,
+				2949E7991EF299170066715B /* Info.plist in Resources */,
 				2945D4681EF0FCC900216208 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,10 +481,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2949E7981EF299170066715B /* AppDelegate.swift in Sources */,
 				2945D4971EF1011800216208 /* FacebookManager.swift in Sources */,
-				2945D4651EF0FCC900216208 /* ViewController.swift in Sources */,
+				2949E79A1EF299170066715B /* ViewController.swift in Sources */,
 				2945D4991EF120F800216208 /* README.md in Sources */,
-				2945D4631EF0FCC900216208 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
