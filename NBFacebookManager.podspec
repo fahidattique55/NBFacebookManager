@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Facebook manager for social media login integration'
 
   s.description      = <<-DESC
-Facebook manager for social media login integration.
+Integrate Facebook login in your application with only two steps.
                        DESC
 
   s.homepage         = 'https://github.com/fahidattique55/NBFacebookManager'

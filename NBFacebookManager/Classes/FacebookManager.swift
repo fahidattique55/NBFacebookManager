@@ -41,7 +41,6 @@ public class FacebookManager {
             
             success((result?.token.tokenString)!)
         }
-        
     }
     
     func fetchLoggedUserInfo(successBlock success: @escaping ((_ facebookUserInfo:[String : AnyObject]) -> Void),
